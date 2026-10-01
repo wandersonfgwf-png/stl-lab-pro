@@ -6,9 +6,9 @@ import UpgradeModal from './UpgradeModal';
 const Pricing: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const essentialLink = "https://go.fruitfypay.com/q4a7i8bthwajMYVD";
-  const proLink = "https://go.fruitfypay.com/QFJmxkMrAJMCcyQa";
-  const upgradeSpecialLink = "https://go.fruitfypay.com/tLGvJzacdxZDAHUu";
+ const essentialLink = "https://checkout.payt.com.br/0f0148c6295dd612ce9884b4d5e196e2";
+  const proLink = "https://checkout.payt.com.br/97bbe1d378f8b525d60ebaf73e66854f";
+  const upgradeSpecialLink = "https://checkout.payt.com.br/eaafd42cc66f5bc45106162a311e3127";
 
   const handleEssentialClick = (e: React.MouseEvent) => {
     e.preventDefault();
